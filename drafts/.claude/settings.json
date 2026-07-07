@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sed -i '' 's/初级翻译、基础编程、/翻译、基础编程、/' article-5-not-yet.md)",
+      "Bash(sed -i '' 's/入门设计、初级文案——/入门设计、日常文案——/' article-5-not-yet.md)",
+      "Bash(python3 -c ' *)",
+      "Bash(mkdir -p ~/.claude/skills)",
+      "Bash(git clone *)",
+      "Skill(humanizer-zh)",
+      "Skill(humanizer-zh:*)",
+      "Bash(npx skills *)",
+      "WebFetch(domain:yiban.io)",
+      "WebFetch(domain:lingke.com)",
+      "Edit(/.claude/skills/zoutopia-voice/**)"
+    ]
+  }
+}
